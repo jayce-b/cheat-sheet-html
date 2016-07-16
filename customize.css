@@ -61,5 +61,59 @@
 
 
 
+
 /* Custom page CSS
 -------------------------------------------------- */
+
+h1 {
+  width: auto;
+}
+
+h1, h4 {
+  margin-top: 40px;
+  font-weight: bold;
+}
+
+.ex, .margintop {
+  margin-top: 40px;
+}
+
+.ex {
+  font-family: courier;
+  color: #666;
+}
+
+
+
+/* CSS foundation piece of code
+-------------------------------------------------- */
+
+.inner-wrap {
+  width: auto; }
+
+.move-right .inner-wrap {
+  -ms-transform: none;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -ms-transform: none;
+  -o-transform: none;
+  transform: none;
+  margin-left: 114px; }
+
+.left-off-canvas-menu {
+  -ms-transform: none;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -ms-transform: none;
+  -o-transform: none;
+  transform: none;
+  position: fixed;
+  width: 0;
+  height: 100%; }
+
+.move-right .left-off-canvas-menu {
+  width: 114px; }
+
+.move-right .exit-off-canvas {
+  display: none; }
+
